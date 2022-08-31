@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qmt>
+ <project>
+  <uid>{e252f5aa-3566-4613-ab42-6760f9b85256}</uid>
+  <root-package>
+   <instance>
+    <MPackage>
+     <base-MObject>
+      <MObject>
+       <base-MElement>
+        <MElement>
+         <uid>{64d77a1d-89f7-4297-9659-753332cab5ff}</uid>
+        </MElement>
+       </base-MElement>
+       <name>usecasedoom</name>
+       <children>
+        <handles>
+         <handles>
+          <qlist>
+           <item>
+            <handle>
+             <uid>{e880e66b-8a05-43fe-b834-7015a126a909}</uid>
+             <target>
+              <instance type="MCanvasDiagram">
+               <MCanvasDiagram>
+                <base-MDiagram>
+                 <MDiagram>
+                  <base-MObject>
+                   <MObject>
+                    <base-MElement>
+                     <MElement>
+                      <uid>{e880e66b-8a05-43fe-b834-7015a126a909}</uid>
+                     </MElement>
+                    </base-MElement>
+                    <name>usecasedoom</name>
+                   </MObject>
+                  </base-MObject>
+                  <elements>
+                   <qlist>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{648b809d-c9e1-436f-b218-57cb0c5f9842}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{7e2e40d2-c7a4-4ae2-bd95-48cddb3502bc}</object>
+                         <name>&lt;&lt;IdEntity&gt;&gt;</name>
+                         <pos>x:-480;y:-50</pos>
+                         <rect>x:-240;y:-485;w:480;h:970</rect>
+                         <visual-role>6</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{e8320594-7599-4e97-a6c7-5e4052dc9346}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{4a9d72e4-51a5-422a-9608-9461edbe381c}</object>
+                         <name>idTarget</name>
+                         <pos>x:-500;y:480</pos>
+                         <rect>x:-40;y:-30;w:80;h:60</rect>
+                         <visual-role>6</visual-role>
+                        </DObject>
+                       </base-DObject>
+                      </DClass>
+                     </instance>
+                    </item>
+                   </qlist>
+                  </elements>
+                  <last-modified>1661982033428</last-modified>
+                  <toolbarid>General</toolbarid>
+                 </MDiagram>
+                </base-MDiagram>
+               </MCanvasDiagram>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{7e2e40d2-c7a4-4ae2-bd95-48cddb3502bc}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{7e2e40d2-c7a4-4ae2-bd95-48cddb3502bc}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>&lt;&lt;IdEntity&gt;&gt;</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{05455713-92eb-4e62-8208-715814080473}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetName( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6306f4db-2307-4318-9c26-fa21717623f6}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetName( const char *newname )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8d9cf880-9534-41e8-9157-a1021757d187}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_FindTargets( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7f3b3d35-ff54-4653-9756-45c797baaaf2}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_ActivateTargets( idEntity *activator )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c1db073b-e058-483e-9ed3-bb1cae99c83e}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_NumTargets( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{133eb93f-772d-48a2-8f84-fe9482b9be27}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetTarget( float index )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2df5e599-88dc-47af-a9dd-b27ebcdca1d7}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_RandomTarget( const char *ignore )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{52cb2fe0-c182-4a98-b19a-0f14cd586277}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_BindToJoint( idEntity *master, const char *jointname, float orientated )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{bf68e000-14b3-4b3e-9d6b-f6e39cf4b81a}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_RemoveBinds( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7bab3261-fe48-4d3c-887f-9e779beb7b60}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_Bind( idEntity *master )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{903f4da9-f87b-400c-add4-cd805232de87}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_BindPosition( idEntity *master )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{abf954d8-3d71-4374-9f31-c3b5cc8213ab}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_Unbind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{edf1d97c-eaf9-48d6-b940-48ab1f4f9ac7}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SpawnBind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1a7a4c38-e4bf-42ea-a452-92c3a0b31ac3}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetOwner( idEntity *owner )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{287ae690-541a-4b28-a751-195f2160aa2b}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetModel( const char *modelname )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ba934794-a0bc-4948-a2c6-e44e79ca91fc}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetSkin( const char *skinname )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{35fa958c-938e-4417-9469-b239dbd88d1b}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetShaderParm( int parmnum )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{63b1e9f7-3e6c-408c-83e6-ff6d4b2e372b}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetShaderParm( int parmnum, float value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ee8a051e-aeb6-479e-80fc-397abf357538}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetShaderParms( float parm0, float parm1, float parm2, float parm3 )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d294e843-19aa-4ca0-a0e6-434aba2c8b3f}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetColor( float red, float green, float blue )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{362de8f5-3eb5-4fef-b6f8-023dbba3f6bf}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetColor( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{00f8b12f-eaa7-4c95-a2fc-ae7efc5009f2}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_IsHidden( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6756a96a-e76b-440a-b062-f9b0ff041443}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_Hide( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{249619d7-20f6-47cc-85ad-ba923ba65f7b}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_Show( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8e8726e9-a71f-4287-a631-dbca85d21804}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_CacheSoundShader( const char *soundName )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{44f23aaa-940e-4045-870a-283fc1513b72}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_StartSoundShader( const char *soundName, int channel )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c19e8a87-b3d0-4bc8-b15f-5461c9ddf6c3}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_FadeSound( int channel, float to, float over )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0fed290b-107a-406d-98b2-d42b669597f4}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetWorldOrigin( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{eb950321-5a14-4cb7-bcc0-04dd9ecec0c5}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetWorldOrigin( idVec3 const &amp;org )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{85605dbf-c940-48bd-8979-9c8d543e1f25}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetOrigin( idVec3 const &amp;org )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e5f840f4-1227-47e3-b27e-6318909c4418}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetOrigin( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fd908e14-cf22-4aea-95a7-e6ca18bc2ec8}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetAngles( idAngles const &amp;ang )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e6ce8e4d-3f1e-4c05-8609-db369e042391}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetAngles( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f04ba41c-85fc-4e62-a870-055a9bbf9043}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetLinearVelocity( const idVec3 &amp;velocity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d8fc0338-9246-43c8-9ea7-0d1ec916bd9d}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetLinearVelocity( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c21c90c1-53fb-4a73-ab6f-3eaaea1f96a2}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetAngularVelocity( const idVec3 &amp;velocity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2e032947-db7f-43df-aff3-0dc8f1ef46c8}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetAngularVelocity( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{bbac4262-c6b3-47ac-a7af-d152b10f0961}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetSize( const idVec3 &amp;mins, const idVec3 &amp;maxs )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3729c130-34b6-4834-a7be-ac0ec105d116}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetSize( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fd10f326-d100-488d-ace8-c4ce30cc7d2c}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetMins( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{71465f21-a8e5-4c45-a759-3e429e573f56}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetMaxs( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{278b01e8-bcbc-41b7-80b3-9f80c0824205}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_Touches( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b100d4ee-c2c1-4bf6-ba37-4a382eb9c5be}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetGuiParm( const char *key, const char *val )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9ce2cffb-e699-4bc1-b641-08047f19c092}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetGuiFloat( const char *key, float f )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{da61aee3-150b-4eb5-a843-2ecb1ba5313f}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetNextKey( const char *prefix, const char *lastMatch )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b6a2e0a3-10e3-4380-9894-278bc6849b7a}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetKey( const char *key, const char *value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{22e0ff73-638b-4fbe-98ef-02604b90189a}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ec453550-dd4a-45b1-a2b3-93b8092c897e}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetIntKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{531324b2-96c8-4b7f-86f9-499888bbd55a}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetFloatKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{686bcc13-2b57-4861-80a7-bc2c4f55c868}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetVectorKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f179aa82-617e-45e1-8066-5d7eee79f40e}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_GetEntityKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ef040d27-1f55-4adb-89f7-438ae4adf6f8}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_RestorePosition( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c299fafd-9150-4c16-9869-e54d2c66e87d}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_UpdateCameraTarget( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{411a01a0-8efd-488e-8946-2ddbb1ea113c}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_DistanceTo( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{995dbd40-ff5e-4060-a102-7fc0f02f5b1c}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_DistanceToPoint( const idVec3 &amp;point )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{745897bd-8d0c-4af0-b9b7-e13044c7fbbe}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_StartFx( const char *fx )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7e765228-bda9-492a-92ff-81f5bf9d4e75}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_WaitFrame( void)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1e86a78d-634e-4f93-ada4-46d5a1e9edca}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_Wait( float time )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{80e55450-2e61-4eab-ae5e-1a255e93961f}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_HasFunction( const char *name )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{aa8fb2fe-1a11-4d65-9661-92511626a459}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_CallFunction( const char *name )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a2e5e800-427f-4960-9df2-0cd9c7c980cb}</uid>
+                    <type>2</type>
+                    <declaration>void idEntity::Event_SetNeverDormant( int enable )</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{4a9d72e4-51a5-422a-9608-9461edbe381c}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{4a9d72e4-51a5-422a-9608-9461edbe381c}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>idTarget</name>
+                 </MObject>
+                </base-MObject>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+          </qlist>
+         </handles>
+        </handles>
+       </children>
+      </MObject>
+     </base-MObject>
+    </MPackage>
+   </instance>
+  </root-package>
+ </project>
+</qmt>
